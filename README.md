@@ -13,3 +13,7 @@ Application is made in Next.js which is framework of React that comes with numer
 When it comes to visual appearance of application, I used Tailwind css for styling. It has various built-in utilities and classes that can be used for achieving great UI & UX 'without ever leaving html', as they say in the documentation.
 
 IDE for development was Visual Studio Code.
+
+## Live preview
+
+Vercel platform is used for deploying the application and it can be accessed by clicking [here](https://hulu-2-0-clone-steel.vercel.app/).
