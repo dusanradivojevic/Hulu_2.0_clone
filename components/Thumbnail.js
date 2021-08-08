@@ -18,6 +18,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         }
         height={1080}
         width={1920}
+        alt='movie poster image'
       />
       <div className='p-2'>
         <p className='truncate max-w-md'>{result.overview}</p>
@@ -35,5 +36,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
     </div>
   );
 });
+
+Thumbnail.displayName = "Thumbnail";
 
 export default Thumbnail;
